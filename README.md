@@ -5,8 +5,8 @@ The program contain a "homemade" function that count how many letter 'e' there a
 
 * to create a function.
 
-* to create a char chart and pass it to a function. The function contain a pointer variable in parameter and since a chart behave like a pointer when it is passed, i don't have to specify to the C language that it is an address with the symbol '&'.
-  
+* to create a char chart and pass it to a function. The first parameter of the function strcntchar contain a pointer variable in parameter and since i want to pass it a chart and that a chart behaves like a pointer when it is passed, i don't have to specify to the C language that it is an address with the symbol '&'.
+Example: how_many_times = strcntchar(string_chart, letter_searched);
 
 * the use of strlen from string.h. strlen == string lenght and it does what it says. ;)
 
