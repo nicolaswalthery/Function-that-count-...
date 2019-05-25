@@ -8,7 +8,9 @@ The program contain a "homemade" function that count how many letter 'e' there a
 * to create a char chart and pass it to a function. The first parameter of the function strcntchar contain a pointer variable in parameter and since i want to pass it a chart and that a chart behaves like a pointer when it is passed, i don't have to specify to the C language that it is an address with the symbol '&'.
 Example: how_many_times = strcntchar(string_chart, letter_searched);
 
-* the use of strlen from string.h. strlen == string lenght and it does what it says. ;)
+* the use of strlen from string.h. strlen == string lenght and it gives the lenght of a char chart pass in parameter.
+char_chart[]="Hello";
+strlen(char_chart) will give you the answer 5.
 
 # The challenge
 In that case it was to find a way to compare every cells of the chart with a typograpgic caracter.
