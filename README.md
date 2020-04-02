@@ -13,7 +13,7 @@ char_chart[]="Hello";
 strlen(char_chart) will give you the answer 5.
 
 # The challenge
-In that case it was to find a way to compare every cells of the chart with a typograpgic caracter.
+In that case it was to find a way to compare every cells of the chart with a typograpgic character.
 To do so, we just need a "for" iteration that stop when the maximum string lenght is reached. That's here the function strlen is useful.
 In every step of that iteration, we'll use a "if" to compare every cells of the chart (chart[the_for_counter]) with the searched letter.
 So it is string_chart[counter]==char_variable, variable containing the searched letter.
